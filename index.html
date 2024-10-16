@@ -48,7 +48,24 @@
             width: 60% !important;
         }
 
+@media screen and (max-width:1000px){
+    .container{
+        flex-direction: column;
+        width: 90% !important;
+    }
 
+    body .container .imgCon{
+        width: 100% !important;
+    }
+
+    body .container .imgCon img{
+        height: 80%;
+    }
+
+    body .container .formCon{
+        width: 100% !important;
+    }
+}
         
     </style>
 </head>
@@ -59,11 +76,11 @@
 
 
 
-        <div class="w-50 h-100 d-flex justify-content-center align-items-center  ">
+        <div class="w-50 h-100 d-flex justify-content-center align-items-center imgCon  ">
             <img class="imgHover" src="https://colorlib.com/etc/lf/Login_v1/images/img-01.png" alt="">
         </div>
 
-        <div class="w-50 btn-container h-100 d-flex justify-content-center align-items-center  ">
+        <div class="w-50 btn-container h-100 d-flex justify-content-center align-items-center formCon ">
 
             <button class="btn btn-primary1 w-50 pt-3 pb-3 fs-4 text-white" data-bs-toggle="modal"
                 data-bs-target="#thisModal">
